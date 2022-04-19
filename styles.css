@@ -1,19 +1,85 @@
-body{
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.amz {
+   display: flex;
+   flex-direction: column;
     background-color: linen;
+    width: fit-content;
+    margin: auto;
+   padding: auto;
 }
-.amz{
-    height: 90%;
-    width: inherit;
+
+.track {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    height: 32px;
+    line-height: 32px;
+    color: #000000;
+    font-family: Arial;
+    width: 500px;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 24px;
+    background-color: #F6BC3D;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 15px 15px 60px 15px ;
 }
-.track{
-    background-color: peru;
-    position: absolute;
-    width: 85%;
-    height: 25%;
-}
-.btn{
-    background-color: lightslategrey;
-    position: absolute;
-    width: 85%;
-    height: 25% ;
-}
+
+.btn {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    height: 32px;
+    line-height: 32px;
+    color: #000000;
+    font-family: Arial;
+    width: 500px;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 24px;
+    background-color: #F1F4F3;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 15px;
+   
+ }
+ .save{
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    height: 32px;
+    line-height: 32px;
+    color: #000000;
+    font-family: Arial;
+    width: 500px;
+    font-size: 38px;
+    font-weight: 100;
+    padding: 24px;
+    background-color: #F1F4F3;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 15px; 
+ }
