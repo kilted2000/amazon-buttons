@@ -1,3 +1,19 @@
 body{
-    background-color: chocolate;
+    background-color: linen;
+}
+.amz{
+    height: 90%;
+    width: inherit;
+}
+.track{
+    background-color: peru;
+    position: absolute;
+    width: 85%;
+    height: 25%;
+}
+.btn{
+    background-color: lightslategrey;
+    position: absolute;
+    width: 85%;
+    height: 25% ;
 }
